@@ -1,7 +1,7 @@
 {
   "name": "micro-geoip-country",
   "description": "Get country from ip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -56,7 +56,6 @@
   "dependencies": {
     "ip2countrify": "0.2.0",
     "marked": "0.3.6",
-    "maxmind": "2.1.0",
     "micro": "7.0.6"
   }
 }
