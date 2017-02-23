@@ -1,0 +1,62 @@
+{
+  "name": "micro-geoip-country",
+  "description": "Get country from ip",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "setup": "npm install",
+    "standard-fix": "standard --fix",
+    "start": "micro",
+    "now-deploy": "npm test && now --npm && now alias"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "geoip"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/micro-geoip-country.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/micro-geoip-country/issues"
+  },
+  "now": {
+    "alias": [
+      "country.geoip.allthethings.win"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "type": "npm"
+  },
+  "devDependencies": {
+    "ava": "0.18.2",
+    "axios": "0.15.3",
+    "coveralls": "2.11.16",
+    "nsp": "2.6.2",
+    "nyc": "10.1.2",
+    "standard": "8.6.0",
+    "test-listen": "1.0.1"
+  },
+  "dependencies": {
+    "ip2countrify": "0.2.0",
+    "marked": "0.3.6",
+    "maxmind": "2.1.0",
+    "micro": "7.0.6"
+  }
+}
