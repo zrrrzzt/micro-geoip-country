@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/micro-geoip-country.svg?branch=master)](https://travis-ci.org/zrrrzzt/micro-geoip-country)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/micro-geoip-country/micro-tania.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/micro-geoip-country.svg)](https://greenkeeper.io/)
 
 # micro-geoip-country
 Get country from ip
