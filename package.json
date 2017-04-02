@@ -47,15 +47,15 @@
   "devDependencies": {
     "ava": "0.18.2",
     "axios": "0.16.0",
-    "coveralls": "2.12.0",
+    "coveralls": "2.13.0",
     "nsp": "2.6.3",
-    "nyc": "10.1.2",
+    "nyc": "10.2.0",
     "standard": "9.0.2",
     "test-listen": "1.0.1"
   },
   "dependencies": {
     "ip2countrify": "0.2.0",
     "marked": "0.3.6",
-    "micro": "7.2.1"
+    "micro": "7.3.0"
   }
 }
