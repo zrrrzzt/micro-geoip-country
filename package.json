@@ -52,7 +52,7 @@
     "nsp": "2.6.3",
     "nyc": "10.2.0",
     "standard": "10.0.1",
-    "test-listen": "1.0.1"
+    "test-listen": "1.0.2"
   },
   "dependencies": {
     "ip2countrify": "0.2.0",
