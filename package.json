@@ -57,6 +57,6 @@
   "dependencies": {
     "ip2countrify": "0.2.0",
     "marked": "0.3.6",
-    "micro": "7.3.3"
+    "micro": "8.0.0"
   }
 }
