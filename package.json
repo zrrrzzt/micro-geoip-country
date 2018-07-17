@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "ip2countrify": "0.2.0",
-    "markdown-it": "8.4.1",
+    "markdown-it": "8.4.2",
     "micro": "9.3.2"
   }
 }
