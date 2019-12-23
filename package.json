@@ -52,7 +52,7 @@
     "coveralls": "3.0.9",
     "micro-dev": "3.0.0",
     "nsp": "3.2.1",
-    "nyc": "14.1.1",
+    "nyc": "15.0.0",
     "standard": "14.3.1",
     "test-listen": "1.1.0"
   },
