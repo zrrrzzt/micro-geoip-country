@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "ava": "3.0.0",
-    "axios": "0.19.1",
+    "axios": "0.19.2",
     "coveralls": "3.0.9",
     "micro-dev": "3.0.0",
     "nsp": "3.2.1",
