@@ -53,7 +53,7 @@
     "micro-dev": "3.0.0",
     "nsp": "3.2.1",
     "nyc": "15.1.0",
-    "standard": "16.0.1",
+    "standard": "16.0.2",
     "test-listen": "1.1.0"
   },
   "dependencies": {
