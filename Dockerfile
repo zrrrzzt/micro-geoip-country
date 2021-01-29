@@ -1,5 +1,5 @@
 # Setting the base to nodejs 8.9.0
-FROM node:8.17.0-alpine@sha256:c8456a06563920080bdc01715626c1be8211edc8cd18f34f15e1b7b936e30746
+FROM node:8.17.0-alpine@sha256:38f7bf07ffd72ac612ec8c829cb20ad416518dbb679768d7733c93175453f4d4
 
 # Maintainer
 MAINTAINER Geir Gåsodden
